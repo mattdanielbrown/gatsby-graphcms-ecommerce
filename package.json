@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@stripe/react-stripe-js": "1.0.0-beta.3",
-    "@stripe/stripe-js": "1.0.0-beta.4",
+    "@stripe/stripe-js": "1.54.2",
     "algoliasearch": "^4.2.0",
     "apollo-datasource-graphql": "1.3.2",
     "apollo-datasource-rest": "^0.6.9",
