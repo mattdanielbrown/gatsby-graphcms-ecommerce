@@ -5,7 +5,9 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "dev": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@stripe/react-stripe-js": "1.0.0-beta.3",
@@ -24,7 +26,7 @@
     "gatsby-plugin-purgecss": "4.0.1",
     "gatsby-plugin-react-helmet": "^3.1.18",
     "gatsby-plugin-react-svg": "3.0.0",
-    "gatsby-plugin-sharp": "^2.3.3",
+    "gatsby-plugin-sharp": "^5.10.0",
     "gatsby-source-filesystem": "^2.1.42",
     "gatsby-source-graphcms": "2.0.0-next.9",
     "gatsby-source-printful": "1.2.0",
@@ -42,7 +44,8 @@
     "react-instantsearch-dom": "^6.4.0",
     "react-toastify": "^5.4.1",
     "react-use-cart": "1.2.2",
-    "stripe": "^7.14.0"
+    "stripe": "^7.14.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "dotenv": "8.2.0",
@@ -56,5 +59,6 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "snyk": true
 }
