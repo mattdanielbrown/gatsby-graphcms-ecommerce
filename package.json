@@ -42,7 +42,7 @@
     "react-instantsearch-dom": "^6.4.0",
     "react-toastify": "^5.4.1",
     "react-use-cart": "1.2.2",
-    "stripe": "^7.14.0"
+    "stripe": "^18.4.0"
   },
   "devDependencies": {
     "dotenv": "8.2.0",
